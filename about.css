@@ -1,0 +1,20 @@
+.about-cont h3 ,.about-co h3{
+    font-size: 18px;
+    color: #264250;
+    text-align: center;
+    padding-top: 18px;
+}
+.about-cont p{
+    margin: 0%;
+    letter-spacing: 0.4px;
+    font-size: 13px;
+    color: #233740;
+    text-align: center;
+}  
+.about-co p{
+    letter-spacing: 0.4px;
+    margin: 0%;
+    font-size: 13px;
+    color: #233740;
+    text-align: revert;
+}

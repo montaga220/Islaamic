@@ -1,0 +1,313 @@
+.container{
+    max-width: 900px; 
+    margin: auto;
+} 
+@media(min-width:412px){
+    .list,.button{
+        display: block;
+    }
+    .header_icon{
+        display: none;
+    }
+}
+@media(max-width:412px){
+    .list,.button{
+        display: none;
+    }
+    .header_icon{
+        display: block;
+    }
+}
+.meuo{
+    background-color: black;
+    display: none;
+    
+}
+.header{
+background-color: rgb(255, 255, 255); 
+height: 50px;
+border-radius: 10px;
+height: 60px;
+} 
+.header_icon{
+    margin-top: 10px;
+    width: 100%;
+    text-align: end;
+    padding-top: 5px;
+    
+}
+.header_icon i{
+    width: 50px;
+    color: rgb(74, 168, 168);
+    font-size: 40px;
+}
+.cont1{  
+    padding-top: 107px; 
+    background-color: #25272a;
+    height: 390px;
+}
+.cont1 h3{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 100;
+    color: #7a8ea3;
+}
+.cont1 h2{  
+    text-align: center;
+    font-size: 59px;  
+    margin-bottom: 4px;
+    color: #1d749f;
+    text-transform: uppercase;
+}
+.button1{
+    background-color: white;
+    font-size: 14px;
+    width: 104px;
+    border-radius: 3px;
+    color: #1d749f;
+    border: solid 1px #1d749f;
+    padding: 3px 15px 7px 15px;
+} 
+.button2{
+    background-color: #1d749f;
+    font-size: 14px;
+    width: 104px;
+    border-radius: 3px;
+    color: #ffffff;
+    border: solid 2px #1d749f;
+    padding: 3px 15px 7px 15px;
+} 
+.social a , .list a{
+    color: rgb(29, 28, 29);
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    width: 15%;  
+    text-decoration: none;
+    float: left; 
+} 
+.list{
+    width: 60%;  
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+.list li a{
+    font-size: 17px;
+}
+.social{ 
+    width: 25%; 
+    float: left;  
+    text-align: center;
+    text-decoration: none;
+}
+ul li {text-transform: uppercase;
+    list-style: none; 
+    display: inline;
+    margin-right: 10px;
+    text-decoration: none;
+}  
+.islamic_list1 ul li{
+   width: 42%;
+   text-align: end;
+}
+.islamic_list1 ul li h6{    
+    text-align: justify;
+    width: 199%;
+}
+.islamic_list1 ul li i{
+    font-size: 18px;
+}
+.button button,.button_send{  
+    border-radius: 4px;
+    cursor: pointer;
+    border: hsl(199.85deg 69.15% 36.86%);
+    background-color: hsl(199.85deg 69.15% 36.86%);;
+    width: auto;
+    text-transform: capitalize;
+    color: antiquewhite;
+    margin-top: 10px;
+    padding: 8px 25px 8px 25px; 
+}
+.button button:hover{ 
+    border-radius: 4px;
+    cursor: pointer;
+    border: rgb(209 209 210);
+    background-color: rgb(209 209 210);
+    width: auto;
+    text-transform: capitalize;
+    color: antiquewhite;
+    margin-top: 10px;
+    padding: 8px 25px 8px 25px;
+}
+li{
+    padding: 6px 2px 6px 2px;
+    border-radius: 2px;
+}
+.activat{
+    cursor: pointer;
+    border: hsl(210deg 37.5% 90.59%);
+    background-color: hsl(210deg 37.5% 90.59%);
+}
+.list li:hover{
+    cursor: pointer;
+    border: hsl(210deg 37.5% 90.59%);
+    background-color: hsl(210deg 37.5% 90.59%);
+
+}
+.courses{  
+    background-image: url('C:/Users/Alshareef Alhindi/Desktop/web/img/back_ground.JPG');
+  height: 94px;
+}
+.courses h3{
+    color: aliceblue;
+    position: absolute;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 19px;
+}
+.prag{
+    margin-bottom: 50px;
+    padding: 6PX 6px 20px;
+    box-shadow: 1px 3px 4px -2px;
+    border-radius: 13px;
+}
+.praga p{
+    font-size: 16px;
+    color: #787e7e;
+    font-style: italic;
+    letter-spacing: 0.7px;
+    text-align: center;
+}
+.prag h3{
+    margin-bottom: 34px;
+    color: #544f48; 
+    font-style: revert;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 28px;
+}
+.imge{
+    width: 37%;
+    
+}
+.islamic_list h6{
+    color: #040404;
+    font-size: 13px;   
+    width: 174px;
+    margin-bottom: 11px;
+    margin-top: 0;
+}
+.islamic_list{
+    width: 59%;
+}
+.islamic_list ul{
+    margin: 0;
+    background-color: #c5ced7;
+    padding-left: 14px;
+    border-radius: 7px;
+    margin-bottom: 8px;
+} 
+.islamic_list ul li{
+    text-transform: uppercase;
+    list-style: none;  
+    text-decoration: none;
+    display: inline-block;
+} 
+.islamic_list ul:hover{
+    margin: 0;
+    background-color: hsl(199.85deg 69.15% 36.86%);
+    padding-left: 14px;
+    border-radius: 7px;   
+    margin-bottom: 8px; 
+}
+.footer{
+    padding-top: 25px;
+    background-color: hsl(132deg 14.29% 6.86%);;
+}
+.about, .iwan,.git{ 
+    padding-top: 15px;
+    padding-left: 1px;
+    float: left;
+}
+.about h3 ,.iwan h3 , .git h3{
+    margin: 21px 0px 7px;
+    text-transform: capitalize;
+    color: antiquewhite;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 5px;
+    letter-spacing: 1px;
+} 
+.about p{
+    padding: 4px 0px 85px 0px;
+    color: #9aa3a3;
+    font-size: 13px; 
+    margin: 1px;
+    width: 94%;
+}
+
+.iwan li,a{
+    font-size: small;
+    color: rgb(235, 227, 241);
+    text-decoration: none;
+    display: block;
+}
+.iwan a{
+    color: #c9cccf; 
+    text-decoration: none;
+}
+.iwan ul{
+    padding: 0;
+    margin-top: -3px;
+    margin-left: 2px;
+}
+.git p{
+    color: #c1cbc8;
+}
+.git li{
+    margin: 0%;
+}
+.git li a{
+    width: max-content;
+}
+.git ul{
+    margin: 0%;
+    padding: 0px;
+    color: #9aa3a3;
+    font-size: 13px;display: flex;
+}
+.copy{
+    text-align: center;
+    background-color: #0f1410;
+    color: #c7c3bd;
+    margin: 0;
+    font-size: 13px;
+    padding: 21px 0px 22px 0px;
+} 
+.igo{cursor: pointer;
+    height: 38px;
+    width: 38px;
+    border-radius: 20px;
+    position: absolute; 
+    position: fixed; 
+    margin-top: -55px;
+}
+.in{  
+    margin-top: 4px;
+    border-radius: 5px;
+    border: solid #ffffff 2px;
+    height: 47px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+/*animation*/
+.ani1{
+    margin-top: -250px;
+    opacity: 0;
+}  
+#ani2,#footer0,#footer1,#footer2{
+    opacity: 0;
+}
